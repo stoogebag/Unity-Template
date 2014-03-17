@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{0B3D8E8F-BACD-81E9-45B4-455B0559EA2A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\U3DXT\Examples\core\GUIBasics\GUIBasicsJS.js" />
+     <Compile Include="Assets\U3DXT\Examples\gamekit7\GameKitBasics\GameKitBasicsJS.js" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTGameKit7.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSpriteKit_HL.xml" />
+     <None Include="Assets\GameAnalytics\Plugins\Framework\Shaders\GA_HeatMapSolidOverlay.shader" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTMultipeer.xml" />
+     <None Include="Assets\U3DXT\Examples\speech\README.txt" />
+     <None Include="Assets\GameAnalytics\Plugins\Framework\Shaders\GA_HeatMapTransparentOverlay.shader" />
+     <None Include="Assets\GameAnalytics\Plugins\Framework\Shaders\GA_HeatMapSolid.shader" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSpriteKit.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTIAP_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCoreImage.xml" />
+     <None Include="Assets\U3DXT\Examples\gamekit7\GKMeeting\README.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTMediaPlayer.xml" />
+     <None Include="Assets\GameAnalytics\Plugins\Framework\Shaders\GA_HeatMapTransparent.shader" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTGameController_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSpeech.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTGameKit7_HL.xml" />
+     <None Include="Assets\GameAnalytics\Plugins\WebPlayer\Readme_WebPlayer.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSpeech_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCoreExtras_HL.xml" />
+     <None Include="Assets\GameAnalytics\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Fonts\SIL Open Font License.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCoreExtras.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTMultipeer_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSocial.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSocial_HL.xml" />
+     <None Include="Assets\GameAnalytics\Plugins\Android\Android_Readme.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTIAP.xml" />
+     <None Include="Assets\GameAnalytics\Plugins\iOS\iOS_Readme.txt" />
+     <None Include="Assets\U3DXT\Examples\social\SocialTest\README.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCore.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTPersonal.xml" />
+     <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Resources\StartAppData.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCoreImage_HL.xml" />
+     <None Include="Assets\U3DXT\Examples\iap\IAPTest\README.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTMediaPlayer_HL.xml" />
+     <None Include="Assets\U3DXT\CHANGELOG.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTGameController.xml" />
+     <None Include="Assets\GameAnalytics\Plugins\WebPlayer\crossdomain.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCore_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTPersonal_HL.xml" />
+ <Reference Include="U3DXTCoreImage">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCoreImage.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTMultipeer">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTMultipeer.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTCore">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCore.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTMultipeer_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTMultipeer_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTGameKit7">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTGameKit7.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTSpeech_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSpeech_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTIAP">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTIAP.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTMediaPlayer_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTMediaPlayer_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTIAP_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTIAP_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTGameController">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTGameController.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTCoreImage_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCoreImage_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTPersonal">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTPersonal.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTSpeech">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSpeech.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTSocial">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSocial.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTGameKit7_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTGameKit7_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTCoreExtras">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCoreExtras.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTMediaPlayer">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTMediaPlayer.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTSpriteKit">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSpriteKit.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTGameController_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTGameController_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTSocial_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSocial_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTCoreExtras_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCoreExtras_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTSpriteKit_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSpriteKit_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTPersonal_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTPersonal_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="U3DXTCore_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCore_HL.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{787C7979-A6EE-ACE6-EC27-7974BE201244}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
